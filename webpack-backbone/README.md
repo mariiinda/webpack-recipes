@@ -6,10 +6,10 @@ A webpack starter setup of to use with backbone projects
   - npm build task for production
 
   - Webpack setup includes:
-    - [Babel](https://babeljs.io/)
-    - handlebars templates
-    - sass
-    - PostCSS [BemLinter](https://github.com/postcss/postcss-bem-linter)
+  - [Webpack dev server](http://webpack.github.io/docs/webpack-dev-server.html)
+  - Babel ES2015 transpiling
+  - CSS autoprefixer + PostCSS
+  - JS: Backbone with Handlebars templates
 
 ## Project Setup:
 
