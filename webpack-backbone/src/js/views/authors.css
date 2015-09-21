@@ -1,0 +1,16 @@
+/** @define Authors; weak */
+:root {
+  --Authors-bg-color: #efddfb;
+}
+.Authors {
+  background-color: var(--Authors-bg-color);
+  height: 100%;
+}
+.Authors-list {
+  overflow: hidden;
+}
+.Authors-listItem {
+  width: 33.333%;
+  float: left;
+  padding: 0.5em 1em;
+}

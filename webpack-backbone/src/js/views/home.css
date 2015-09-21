@@ -1,0 +1,8 @@
+/** @define Home */
+:root {
+  --Home-bg-color: #f1f1f1;
+}
+.Home {
+  background-color: var(--Home-bg-color);
+  height: 100%;
+}

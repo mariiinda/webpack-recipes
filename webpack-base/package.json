@@ -1,0 +1,27 @@
+{
+  "name": "webpack-recipe-base",
+  "version": "1.0.0",
+  "description": "Basic Webpack setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --no-info --content-base dist --port 7070 --hot",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stylecoder",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.18.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "html-webpack-plugin": "^1.6.1",
+    "lodash": "^3.10.1",
+    "postcss-import": "^7.0.0",
+    "postcss-loader": "^0.6.0",
+    "style-loader": "^0.12.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
+  }
+}

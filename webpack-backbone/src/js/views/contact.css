@@ -1,0 +1,10 @@
+/** @define Contact */
+
+:root {
+  --Contact-bg-color: #F3ABD8;
+}
+
+.Contact {
+  background-color: var(--Contact-bg-color);
+  height: 100%;
+}

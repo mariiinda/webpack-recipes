@@ -1,0 +1,18 @@
+:root {
+  --App-bg-color: #fff;
+}
+.App {
+  background-color: var(--App-bg-color);
+  height: 100%;
+}
+
+.App-SubContent {
+  margin: 2em 0;
+}
+
+:root {
+  --text-color: #333;
+  --bg-color: #f1f1f1;
+  --body-typeface: 'Sanchez', serif;
+  --heading-typeface: 'Open Sans', sans-serif;
+}

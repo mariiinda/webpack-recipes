@@ -1,0 +1,45 @@
+/* Global styles here */
+
+:root {
+  --text-color: #333;
+  --bg-color: #f1f1f1;
+}
+
+html, body {
+  max-height: 100%;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-family: var(--body-typeface);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-typeface);
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.u-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.u-page {
+  padding: 2em;
+  min-height: 20%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}

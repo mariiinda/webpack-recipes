@@ -1,0 +1,10 @@
+$bg-color : #F1F1F1;
+
+.app {
+  background: $bg-color;
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  outline: 1px solid #CCC;
+  padding: 20px;
+}

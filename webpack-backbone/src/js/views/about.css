@@ -1,0 +1,8 @@
+/** @define About */
+:root {
+  --About-bg-color: #abd6f3;
+}
+.About {
+  background-color: var(--About-bg-color);
+  height: 100%;
+}

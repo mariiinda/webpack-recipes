@@ -1,0 +1,12 @@
+
+/** @define User */
+:root {
+  --User-bg-color: #FFF;
+  --User-border-color: #DDD;
+}
+
+.User {
+  background-color: var(--User-bg-color);
+  border-bottom: 1px solid var(--User-border-color);
+  padding: 30px;
+}
