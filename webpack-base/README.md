@@ -1,4 +1,4 @@
-# webpack-react-starter
+# webpack-base
 A webpack basic setup
 
 ### Features:
